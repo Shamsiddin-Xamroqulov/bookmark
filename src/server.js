@@ -6,7 +6,6 @@ const router = require('./routes')
 const fileupload = require("express-fileupload")
 const errorHandler = require('./middleware/ErrorHandlingMiddleware')
 const PORT = 5000
-// console.log(verify("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjYsI…U4M30.fJFqwdBxqTNXLwM1_oca5rkYCqIQHOSbM9ZANwy4iQ4", "token"))
 
 const app = express()
 
